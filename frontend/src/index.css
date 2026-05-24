@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nigeria-green: #008751;
+  --nigeria-white: #ffffff;
+  --nigeria-green-dark: #006d42;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.btn-primary {
+  @apply bg-green-700 hover:bg-green-800 text-white font-medium py-2 px-4 rounded-lg transition-colors;
+}
+
+.btn-outline {
+  @apply border border-green-700 text-green-700 hover:bg-green-50 font-medium py-2 px-4 rounded-lg transition-colors;
+}
