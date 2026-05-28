@@ -1,1 +1,2 @@
 pull shark test 2 clean
+pull shark test 2 clean
